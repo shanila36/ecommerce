@@ -1,0 +1,211 @@
+.header {
+  background: rgb(12, 12, 12);
+  height: 120px;
+  width: 100%;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.logo_holder {
+  max-width: 200px;
+  margin-right: 10px;
+}
+.logo_holder_mob {
+  display: none;
+}
+.header-contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+.header__search {
+  width: 500px;
+  margin-right: 100px;
+}
+.menu_mob {
+  display: none;
+}
+.mene_route_click {
+  color: white;
+}
+.mob_menu_text {
+  color: black;
+}
+.icons {
+  max-width: 20px;
+  margin-left: 10px;
+  margin-right: 4px;
+}
+.cart {
+  display: flex;
+}
+.right_side {
+  display: flex;
+  padding: 2px;
+  font-weight: bold;
+}
+.My_account {
+  padding: 15px;
+  margin-left: 15px;
+  font-size: small;
+  font-weight: bold;
+}
+.Help {
+  padding: 15px;
+  color: rgb(255, 255, 255);
+}
+.Store_location {
+  padding: 15px;
+  color: rgb(255, 255, 255);
+}
+.Contact {
+  padding: 15px;
+  color: rgb(255, 255, 255);
+}
+.cart {
+  padding: 15px;
+  color: rgb(255, 255, 255);
+}
+.check_button {
+  padding: 20px;
+  margin-left: 20px;
+}
+.ant-dropdown-link {
+  font-weight: bolder;
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  padding: 1%;
+}
+.ant-dropdown-link_red {
+  color: rgb(255, 255, 255);
+  padding: 1%;
+  font-weight: bolder;
+  font-size: 13px;
+}
+.mob_menu_text {
+  display: none;
+}
+.menu_products {
+  display: table;
+  width: 100%;
+  text-align: center;
+}
+.account {
+  color: white;
+}
+.basket_amount {
+  color: white;
+}
+.cart_mobile {
+  display: none;
+}
+.sub_menu_text {
+  color: black;
+  padding: 2%;
+  margin-left: 9px;
+}
+.basket_amount {
+  font-size: medium;
+}
+@media screen and (max-width: 1000px) {
+  .header {
+    height: 190px;
+    width: 100%;
+  }
+  .right_side {
+    display: none;
+  }
+  .mob_menu_text {
+    display: flex;
+    margin-right: 5px;
+  }
+  .check_button {
+    display: none;
+  }
+  .logo_holder {
+    display: none;
+  }
+  .logo_holder_mob {
+    display: flex;
+    max-width: 40px;
+    margin-right: 5px;
+    margin-left: 12px;
+  }
+  .header-contents {
+    display: inline;
+  }
+  .header__search {
+    width: 60%;
+    display: flex;
+    margin-top: 0%;
+
+    margin-right: 25px;
+    margin-left: auto;
+  }
+  .header_search_menu {
+    display: flex;
+    align-items: center;
+  }
+  .menu_mob {
+    display: flex;
+    font-weight: bold;
+  }
+  .My_account {
+    padding: 0px;
+    font-weight: bold;
+  }
+  .Help {
+    padding: 0px;
+    font-weight: bold;
+  }
+  .Store_location {
+    padding: 0px;
+    font-weight: bold;
+  }
+  .Contact {
+    padding: 0px;
+  }
+  .cart {
+    padding: 0px;
+    font-weight: bold;
+  }
+  .cart_mobile {
+    display: flex;
+    margin-right: 30px;
+    font-weight: bold;
+  }
+  .icons_mobile {
+    max-width: 30px;
+    margin-right: 10px;
+  }
+  .check_button {
+    padding: 0px;
+  }
+  .mob_menu_text {
+    margin-top: 1%;
+  }
+  .ant-dropdown-link {
+    font-weight: bolder;
+    font-size: 12px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+  }
+  .ant-dropdown-link_red {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .menu_products {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px 80px;
+    width: 100%;
+    margin-top: 0px;
+    justify-content: center;
+    align-content: center;
+  }
+}
